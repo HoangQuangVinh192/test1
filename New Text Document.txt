@@ -1,0 +1,15 @@
+tạo nhánh mới.
+git checkout -b + tên nhánh
+
+
+
+đầu tiên: pull origin master
+sửa code.
+sau đó : git stash -> lưu thay đổi
+pull origin + tên nhánh
+git stash pop -> lấy lại thay đổi
+xử lý conflix nếu có(add . commit -m luôn đi trước push)
+push origin + tên nhánh
+sang nhánh chính: git checkout master
+pull từ nhánh phụ vào
+cuối cùng push origin master.
